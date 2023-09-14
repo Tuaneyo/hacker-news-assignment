@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --el-color-primary: #EB5440;
+  --el-color-secondary: #f6f6ef;
+  --text-color-primary: #000;
+  --text-color-secondary: #828282;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  margin: 8px;
+  color: var(--text-color-secondary);
+}
