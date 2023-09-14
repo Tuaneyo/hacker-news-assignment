@@ -13,7 +13,7 @@
         <span v-if="comment.children.length > 0">|</span>
 
         <span v-if="comment.children && comment.children.length > 0">
-          <button data-testid="comment-button" class="hover:underline" @click="showHideMoreReplies">
+          <button data-testid="show-hide-button" class="hover:underline" @click="showHideMoreReplies">
             {{ showMoreReplies ? '[-]' : totalChildCount + ' more' }}
           </button>
         </span>
